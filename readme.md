@@ -78,6 +78,16 @@ npm start
   "lint": "...",       // npm run lint ✓
   "my-custom": "..."   // npm run my-custom ✓
 }
+
+# 添加运行时依赖
+npm install axios
+
+# 添加开发依赖
+npm install -D typescript
+
+# 控制 nodejs 版本
+nvm ls
+nvm use 22
 ```
 
 ### 扩展采集器
